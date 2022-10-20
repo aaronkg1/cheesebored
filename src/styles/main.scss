@@ -1,2 +1,4 @@
-@import url(./common/variables);
-@import url(./components/home);
+@import "./common/variables";
+@import "./common/base";
+@import "./components/navbar";
+@import "./components/home";
