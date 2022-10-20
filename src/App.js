@@ -7,13 +7,15 @@ import CheeseIndex from "./components/CheeseIndex";
 
 function App() {
   return (
-    <BrowserRouter>
-      <SiteNavbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="cheeses" element={<CheeseIndex />} />
-      </Routes>
-    </BrowserRouter>
+    <div className="site-wrapper">
+      <BrowserRouter>
+        <SiteNavbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="cheeses" element={<CheeseIndex />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
   );
 }
 
